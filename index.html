@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zone Mart</title>
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+    <link rel="icon" href="image/favicon.ico">
+</head>
+<body>
+    <header>
+        <!-- nav1 start -->
+        <nav class="nav1">
+            <div class="left">
+                <span>Welcome to my E-shop</span>
+                <a href="#">Register</a> OR
+                <a href="#">Login</a>
+            </div>
+            <div class="right">
+                <a href="https://www.facebook.com/krishnapratap.singh.1422409/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/073krishna2001/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://api.whatsapp.com/send?phone=+919696649906" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://twitter.com/Krishna99141626"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.linkedin.com/in/krishna-pratap-singh-7b0b61228/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </nav>
+        <!-- nav1 end -->
+
+        <!-- nav2 start -->
+
+        <nav class="nav2">
+            <div class="nav2-left">
+                <a href="tel:+919696649906"><i class='bx bx-phone' ></i></a>
+                <a href="mailto:073krishna2002@gmail.com"><i class='bx bx-envelope' ></i></a>
+            </div>
+            <div class="nav2-center">
+                <h1>Zone <span>Mart</span></h1>
+                <p>Every thing you want, we will provide</p>
+            </div>
+            <div class="nav2-right">
+                <a href="#contact_id"><i class='bx bxs-map-alt'></i>Contact us</a>
+            </div>
+        </nav>
+
+        <!-- nav2 end -->
+
+        <!-- nav3 start  -->
+
+        <nav class="nav3" id="navbar">
+            <ul>
+                <li><a href="#home_id"><i class='bx bxs-home' ></i>Home</a></li>
+                <li><a href="#"><i class='bx bx-user' ></i>Boy</a></li>
+                <li><a href="#"><i class='bx bx-unite'></i>Accessories</a></li>
+                <li><a href="#"><i class='bx bx-anchor' ></i>Toys<i class='bx bx-caret-down' ></i></a>
+                <ul>
+                    <li><a href="#"><i class='bx bx-clipboard' ></i>Wood</a></li>
+                    <li><a href="#"><i class='bx bx-radio-circle' ></i>Plastic</a></li>
+                    <li><a href="#"><i class='bx bxs-objects-vertical-bottom'></i>Iron</a></li>
+                </ul>
+                </li>
+                <li><a href="#special_id"><i class='bx bxs-calendar-check'></i>Special</a></li>
+                <li><a href="#"><i class='bx bx-search'></i>Find</a></li>
+                <li><a href="#"><i class='bx bx-cart'></i>Cart</a></li>
+                <!-- <li><a href="#"><i class='bx bx-search' onclick="toggleSearchBar()"></i>Find</a></li>
+                <div id="searchBarContainer" class="search-bar-container">
+                    <input type="text" id="searchBar" placeholder="search.." class="search_box">
+                </div> -->
+            </ul>
+
+        </nav>
+        <!-- nav3 end -->
+
+        <!-- sidenav start -->
+
+        <section id="sidenav">
+            <ul>
+                <li><a href="#home_id"><i class='bx bxs-home' ></i>Home</a></li>
+                <li><a href="#"><i class='bx bx-user' ></i>Boy</a></li>
+                <li><a href="#"><i class='bx bx-unite'></i>Accessories</a></li>
+                <li><a href="#special_id"><i class='bx bxs-calendar-check'></i>Special</a></li>
+                <li><a href="#"><i class='bx bx-search' ></i>Find</a></li>
+                <li><a href="#"><i class='bx bx-anchor' ></i>Toys<i class='bx bx-caret-down' ></i></a>
+                    <ul>
+                        <li><a href="#"><i class='bx bx-clipboard' ></i>Wood</a></li>
+                        <li><a href="#"><i class='bx bx-radio-circle' ></i>Plastic</a></li>
+                        <li><a href="#"><i class='bx bxs-objects-vertical-bottom'></i>Iron</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <i class='bx bx-anchor' id="menubar"></i>
+
+        <!-- sidenav end -->
+
+        <!-- featured start  -->
+
+        <section class="featured" id="home_id">
+            <div class="featured-text">
+                <button>Coming soon</button>
+                <h2>Our new deigns</h2>
+            </div>
+        </section>
+
+        <!-- featured end  -->
+
+    </header>
+
+    <!-- discription section start -->
+
+    <section class="latest" id="special_id">
+        <div class="product-intro">
+            <h1>New <span>Arrivals</span></h1>
+            <p>Our stylish shoes and sunglasses will help you improve your style game because they seamlessly combine fashion and utility. Embrace the light with panache and confidence.</p>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div>
+                    <img src="image/shoe-1.jpg" alt="">
+                </div>
+                <h1>Branded Shoes</h1>
+                <span>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bx-star'></i>
+                </span>
+                <p>Rs. 1500.00</p>
+                <button>Add to cart</button>
+            </div>
+    
+            <div class="card">
+                <div>
+                    <img src="image/shoe-2.jpg" alt="">
+                </div>
+                <h1>Branded Shoes</h1>
+                <span>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </span>
+                <p>Rs. 2500.00</p>
+                <button>Add to cart</button>
+            </div>
+    
+            <div class="card">
+                <div>
+                    <img src="image/shoe-3.jpg" alt="">
+                </div>
+                <h1>Branded Shoes</h1>
+                <span>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </span>
+                <p>Rs. 2000.00</p>
+                <button>Add to cart</button>
+            </div>
+    
+            <div class="card">
+                <div>
+                    <img src="image/shoe-4.jpg" alt="">
+                </div>
+                <h1>Branded Shoes</h1>
+                <span>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                    <i class='bx bx-star'></i>
+                </span>
+                <p>Rs. 1000.00</p>
+                <button>Add to cart</button>
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div>
+                    <img src="image/sunglasses-1.jpg" alt="">
+                </div>
+                <h1>Branded Sunglasses</h1>
+                <span>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bx-star'></i>
+                </span>
+                <p>Rs. 700.00</p>
+                <button>Add to cart</button>
+            </div>
+    
+            <div class="card">
+                <div>
+                    <img src="image/sunglasses-2.jpg" alt="">
+                </div>
+                <h1>Branded Sunglasses</h1>
+                <span>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </span>
+                <p>Rs. 1000.00</p>
+                <button>Add to cart</button>
+            </div>
+    
+            <div class="card">
+                <div>
+                    <img src="image/sunglasses-3.jpg" alt="">
+                </div>
+                <h1>Branded Sunglasses</h1>
+                <span>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </span>
+                <p>Rs. 500.00</p>
+                <button>Add to cart</button>
+            </div>
+    
+            <div class="card">
+                <div>
+                    <img src="image/sunglasses-4.jpg" alt="">
+                </div>
+                <h1>Branded Sunglasses</h1>
+                <span>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                    <i class='bx bx-star'></i>
+                </span>
+                <p>Rs. 350.00</p>
+                <button>Add to cart</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- discription section end -->
+
+    <!-- popular product start  -->
+    <section class="latest">
+        <div class="product-intro">
+            <h1>Popular <span>Products</span></h1>
+            <p>Explore the wonder of our Best-Selling Products! Enhance your lifestyle with the top-selling products that everyone adores, from cutting-edge electronics to must-have necessities. Shop now to take advantage of the hype!</p>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div>
+                    <img src="image/dress-1.jpg" alt="">
+                </div>
+                <h1>Stylish Cap</h1>
+                <span>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bx-star'></i>
+                </span>
+                <p>Rs. 750.00</p>
+                <button>Add to cart</button>
+            </div>
+    
+            <div class="card">
+                <div>
+                    <img src="image/dress-2.jpg" alt="">
+                </div>
+                <h1>Western Dress</h1>
+                <span>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                    <i class='bx bx-star'></i>
+                </span>
+                <p>Rs. 1000.00</p>
+                <button>Add to cart</button>
+            </div>
+    
+            <div class="card">
+                <div>
+                    <img src="image/dress-5.jpg" alt="">
+                </div>
+                <h1>Kurta</h1>
+                <span>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                </span>
+                <p>Rs. 5000.00</p>
+                <button>Add to cart</button>
+            </div>
+    
+            <div class="card">
+                <div>
+                    <img src="image/dress-4.jpg" alt="">
+                </div>
+                <h1>Branded Western Top</h1>
+                <span>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half'></i>
+                    <i class='bx bx-star'></i>
+                </span>
+                <p>Rs. 700.00</p>
+                <button>Add to cart</button>
+            </div>
+        </div>
+    </section>
+    <!-- popular product end  -->
+
+    <!-- trends start-->
+
+    <section class="trends">
+        <div class="product-intro">
+            <h1>Trending <span>Products</span></h1>
+            <p>With our Trending Products, stay on top of the latest fashions! Accept the newest trends and the hottest breakthroughs, designed to improve your convenience and style. Don't let this opportunity pass you by; get these in-demand things while they're still in high demand!</p>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="image/headphone-2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/headphone-3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/headphone-4.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/headphone-5.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <a href="#home_id"><i class='bx bxs-up-arrow-circle top_arrow'></i></a>
+    </section>
+
+    <!-- trends end-->
+
+    <footer id="contact_id">
+        <div>
+            <h1>Zone <span>Mart</span></h1>
+            <p>Every thing you want, we will provide</p>
+        </div>
+        <div>
+            <a href="https://www.facebook.com/krishnapratap.singh.1422409/"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/073krishna2001/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://api.whatsapp.com/send?phone=+919696649906" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            <a href="https://twitter.com/Krishna99141626"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.linkedin.com/in/krishna-pratap-singh-7b0b61228/"><i class='bx bxl-linkedin'></i></a>
+            <p><br>Designed by Krishna Pratap Singh</p>
+        </div>
+        <div>
+            <p>
+                @2023 Copyright All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
