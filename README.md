@@ -1,8 +1,8 @@
-# e_commerce_for_InternPe
+# Zone_Mart__e_commerce
 Discover a game-changing e-commerce website in this repository. Get the complete source code and assets to build a secure, scalable, and user-friendly platform. Ideal for developers and retail businesses seeking online success.
 
 
-## Demonstration -> [Live site](https://073krishna2001.github.io/e_commerce_for_InternPe/)
+## Demonstration -> [Live site](https://073krishna2001.github.io/Zone_Mart__e_commerce/)
 
 <table>
   <tr>
@@ -34,8 +34,8 @@ The images above showcase the Zone Mart front page.
 
 To use the e-commerce website locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/073krishna2001/e_commerce_for_InternPe.git`
-2. Navigate to the project directory: `cd e_commerce_for_InternPe`
+1. Clone the repository: `git clone https://github.com/073krishna2001/Zone_Mart__e_commerce.git`
+2. Navigate to the project directory: `cd Zone_Mart__e_commerce`
 3. Open the `index.html` file in your preferred web browser.
 
 
