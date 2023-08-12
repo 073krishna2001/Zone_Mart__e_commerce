@@ -64,7 +64,7 @@ If you have any questions or suggestions regarding this calculator project, plea
   <a href="https://twitter.com/Krishna99141626" target="_blank" rel="noreferrer">
   <img src="https://cdn.worldvectorlogo.com/logos/twitter-6.svg" alt="Twitter" width="70" height="55">
   </a>
-  <a href="https://www.instagram.com/073krishna2001/" target="_blank" rel="noreferrer">
+  <a href="https://www.instagram.com/krishnapratapsingh2025/" target="_blank" rel="noreferrer">
   <img src="https://cdn.worldvectorlogo.com/logos/instagram-2016-5.svg" alt="Instagram" width="70" height="55">
   </a>
 </div>
